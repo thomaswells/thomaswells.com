@@ -21,7 +21,7 @@
            		HttpRequest.send();
 
            		HttpRequest.onreadystatechange = (e) => {
-           			console.log(HttpRequest.responseText)
+           			document.getElementById("dvDate").innerHTML = HttpRequest.responseText
            		}
            }
 
